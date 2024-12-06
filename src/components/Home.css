@@ -1,0 +1,80 @@
+/* Home.css */
+
+/* General container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Content wrapper */
+  .home-content {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Profile image styling */
+  .home-content img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  /* Heading styling */
+  .home-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  /* Paragraph styling */
+  .home-content p {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  /* Link styling */
+  .home-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .home-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Fun Fact button styling */
+  .fun-fact button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .fun-fact button:hover {
+    background: #0056b3;
+  }
+  
+  /* Fun Fact text styling */
+  .fun-fact .fact {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+  }
+  
